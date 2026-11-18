@@ -18,5 +18,5 @@ def calcular_total_centimos(cantidad: int, es_menor: bool = False) -> int:
 
     importe = cantidad * PRECIO_ENTRADA_CENTIMOS
     if es_menor:
-        importe = importe * 80 // 100  # 20 % de descuento (paga el 80 %)
+        importe = importe * 90 // 100  # 20 % de descuento (paga el 80 %)
     return importe
